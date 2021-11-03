@@ -72,15 +72,15 @@ document.addEventListener('DOMContentLoaded', () => {
   let cardsWon = [];
 
   // display instructions
-  function checkDisplay() {
-    const instructions = document.querySelector('#instructions');
-    if (true) {
-      instructions.style.display = 'none';
-    } else {
-      instructions.textContent = 'Click on tiles to play';
-      instructions.style.display = 'block';
-    }
-  }
+  // function checkDisplay() {
+  //   const instructions = document.querySelector('#instructions');
+  //   if (true) {
+  //     instructions.style.display = 'none';
+  //   } else {
+  //     instructions.textContent = 'Click on tiles to play';
+  //     instructions.style.display = 'block';
+  //   }
+  // }
 
   // create board
   function createBoard() {
@@ -161,6 +161,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  checkDisplay();
+  // checkDisplay();
   createBoard();
 });
