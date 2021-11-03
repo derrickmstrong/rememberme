@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ];
 
   // restart game
-  cardArray.sort(() => 0.75 - Math.random());
+  cardArray.sort(() => 0.5 - Math.random());
 
   // create game board
   const grid = document.querySelector('.grid');
